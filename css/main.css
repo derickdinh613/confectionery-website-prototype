@@ -24,7 +24,7 @@ h1 {
   font-family: Lobster, cursive;
 }
 
-a {
+nav a {
   font-family: Indie Flower, cursive;
   list-style-type: none;
   text-decoration: none;
@@ -35,4 +35,10 @@ a:hover {
   text-decoration: none;
   background-color:#f33;
   color: #fff;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
 }
