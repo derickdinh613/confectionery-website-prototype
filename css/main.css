@@ -17,11 +17,11 @@ html {
 }
 
 header {
-  background-color: #f7a3ed;
+  background-color: #d6d1d5;
 }
 
 .head {
-
+  padding: 1rem;
 }
 
 h1 {
@@ -50,14 +50,14 @@ a {
   padding: .2em .5em .3em;
   background-color: #b2a212;
   display: inline-block;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   border-radius: 4px;
   font-size: 1.125rem;
-  font-family: Indie Flower, cursive;
+  font-family: "Indie Flower", cursive;
   list-style-type: none;
   display: inline-block;
-  background: #f33;
+  background-color: #ededed;
 }
 
 a:hover {
@@ -72,30 +72,78 @@ li {
   display: inline-block;
 }
 
+.best {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+.reviews {
+  background: #bcbabc;
+  text-align: center;
+}
+
 .bob {
   display: block;
-  background-color: #f33;
+  background-color: #bcbabc;
   border: 3px solid #fff;
   border-radius: 3px;
   padding: .4em .75em .5em;
+  font-family: "Indie Flower", cursive;
 }
 
 .dill {
   display: block;
-  background-color: #f33;
-  border: 3px solid #fff;
+  background-color: #bcbabc;
+  border-bottom: 3px solid #fff;
   border-radius: 3px;
   padding: .4em .75em .5em;
+  font-family: "Indie Flower", cursive;
 }
 
 .pan {
   display: block;
-  background-color: #f33;
-  border: 3px solid #fff;
+  background-color: #bcbabc;
+  border-bottom: 3px solid #fff;
   border-radius: 3px;
   padding: .4em .75em .5em;
+  font-family: "Indie Flower", cursive;
 }
 
-.imgbest {
-  width: 100%;
+.bob img {
+  margin-bottom: .5rem;
+}
+
+.bob p {
+  text-align: center;
+}
+
+.bob q {
+  text-align: center;
+  display: block;
+}
+
+.dill img {
+  margin-bottom: .5rem;
+}
+
+.dill p {
+  text-align: center;
+}
+
+.dill q {
+  text-align: center;
+  display: block;
+}
+
+.pan img {
+  margin-bottom: .5rem;
+}
+
+.pan p {
+  text-align: center;
+}
+
+.pan q {
+  text-align: center;
+  display: block;
 }
