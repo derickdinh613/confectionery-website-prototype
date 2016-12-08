@@ -33,6 +33,8 @@ h1 {
 h2 {
   font-family: Lobster, cursive;
   color: #fff;
+  text-align: center;
+  border-bottom: 3px solid #fff;
 }
 
 .head {
@@ -85,7 +87,7 @@ li {
 .bob {
   display: block;
   background-color: #bcbabc;
-  border: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   border-radius: 3px;
   padding: .4em .75em .5em;
   font-family: "Indie Flower", cursive;
@@ -146,4 +148,41 @@ li {
 .pan q {
   text-align: center;
   display: block;
+}
+
+.week {
+  display: block;
+  background-color: #b2aeb1;
+  border-bottom: 3px solid #fff;
+  border-radius: 3px;
+  padding: .4em 0 .5em;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+
+.mon {
+    border-bottom: 3px solid #fff;
+}
+
+.wed {
+    border-bottom: 3px solid #fff;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #727072;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.3;
+  }
+
+
 }
