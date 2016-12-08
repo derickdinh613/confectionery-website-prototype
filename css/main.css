@@ -22,6 +22,7 @@ header {
 
 .head {
   padding: 1rem;
+  display: block;
 }
 
 h1 {
@@ -37,10 +38,6 @@ h2 {
   border-bottom: 3px solid #fff;
 }
 
-.head {
-  display: block;
-}
-
 ul {
   text-align: center;
   padding: 0;
@@ -50,7 +47,6 @@ ul {
 
 a {
   padding: .2em .5em .3em;
-  background-color: #b2a212;
   display: inline-block;
   color: #000;
   text-decoration: none;
@@ -58,13 +54,12 @@ a {
   font-size: 1.125rem;
   font-family: "Indie Flower", cursive;
   list-style-type: none;
-  display: inline-block;
   background-color: #ededed;
 }
 
 a:hover {
   text-decoration: none;
-  background-color:#fff;
+  background-color: #fff;
   color: #f33;
 }
 
@@ -161,11 +156,11 @@ li {
 }
 
 .mon {
-    border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 
 .wed {
-    border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 
 .contact {
