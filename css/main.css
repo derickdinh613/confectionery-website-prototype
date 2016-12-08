@@ -213,13 +213,8 @@ footer {
   }
 
   .head {
+    float: none;
     position: relative;
-    padding-left: 5rem;
-    width: 20%;
-  }
-
-  nav {
-    position: absolute;
   }
 
 }
@@ -232,7 +227,6 @@ footer {
   }
 
 }
-
 @media only screen and (min-width: 90em) {
 
   html {
