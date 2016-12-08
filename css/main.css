@@ -21,7 +21,7 @@ header {
 }
 
 .head {
-  padding-left:45rem;
+
 }
 
 h1 {
@@ -94,4 +94,8 @@ li {
   border: 3px solid #fff;
   border-radius: 3px;
   padding: .4em .75em .5em;
+}
+
+.imgbest {
+  width: 100%;
 }
