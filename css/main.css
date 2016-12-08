@@ -20,25 +20,78 @@ header {
   background-color: #f7a3ed;
 }
 
-h1 {
-  font-family: Lobster, cursive;
+.head {
+  padding-left:45rem;
 }
 
-nav a {
+h1 {
+  font-family: Lobster, cursive;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-family: Lobster, cursive;
+  color: #fff;
+}
+
+.head {
+  display: block;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+}
+
+a {
+  padding: .2em .5em .3em;
+  background-color: #b2a212;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1.125rem;
   font-family: Indie Flower, cursive;
   list-style-type: none;
-  text-decoration: none;
   display: inline-block;
+  background: #f33;
 }
 
 a:hover {
   text-decoration: none;
-  background-color:#f33;
-  color: #fff;
+  background-color:#fff;
+  color: #f33;
 }
 
 li {
   list-style-type: none;
   text-align: center;
   display: inline-block;
+}
+
+.bob {
+  display: block;
+  background-color: #f33;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  padding: .4em .75em .5em;
+}
+
+.dill {
+  display: block;
+  background-color: #f33;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  padding: .4em .75em .5em;
+}
+
+.pan {
+  display: block;
+  background-color: #f33;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  padding: .4em .75em .5em;
 }
