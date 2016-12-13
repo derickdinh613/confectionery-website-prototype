@@ -36,6 +36,7 @@ h2 {
   color: #fff;
   text-align: center;
   border-bottom: 3px solid #fff;
+  margin-top: 1rem;
 }
 
 ul {
@@ -194,7 +195,7 @@ footer {
   }
 
   .head {
-    margin-top: 1rem;
+    margin-top: .5rem;
     float: left;
     width: 50%;
   }
